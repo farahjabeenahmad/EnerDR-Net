@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local path configuration
+configs/paths.json
+
+# Datasets and archives
+# Keep only the dataset instructions file under data/.
+data/*
+!data/README.md
+datasets/
+Dataset/
+Datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Preprocessing caches
+cache/
+caches/
+processed_cache/
+
+# Generated experiment outputs
+outputs/checkpoints/*
+!outputs/checkpoints/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/predictions/*
+!outputs/predictions/.gitkeep
+outputs/profiles/*
+!outputs/profiles/.gitkeep
+
+# Profiling / experiment logs
+runs/
+*.trace.json
+*.json.gz
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~$*

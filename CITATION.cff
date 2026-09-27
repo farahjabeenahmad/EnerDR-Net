@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use EnerDR-Net in your research, please cite the associated publication when available."
+title: "EnerDR-Net"
+type: software
+authors:
+  - name: "EnerDR-Net Authors"
+version: 1.0.0
+date-released: 2026-09-27
+repository-code: "https://github.com/YOUR_USERNAME/EnerDR-Net"
+license: MIT

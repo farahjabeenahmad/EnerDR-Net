@@ -1,0 +1,16 @@
+# Core scientific Python stack
+numpy>=1.24
+pandas>=2.0
+Pillow>=9.5
+matplotlib>=3.7
+scikit-learn>=1.3
+
+# Deep learning
+# Original experiment environment used PyTorch 2.7.1 with CUDA 11.8.
+# For GPU-specific installation, see README.md.
+torch==2.7.1
+torchvision==0.22.1
+
+# Notebook environment
+jupyter>=1.0
+ipykernel>=6.25
