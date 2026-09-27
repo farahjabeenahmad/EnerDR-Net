@@ -1,0 +1,9 @@
+{
+  "APTOS_IMAGE_DIR": "datasets/Aptos-2019/train_images",
+  "APTOS_CSV": "datasets/Aptos-2019/train.csv",
+  "MESSIDOR_IMAGE_DIR": "datasets/Messidor_02/messidor-2/images",
+  "MESSIDOR_CSV": "datasets/Messidor_02/messidor-2/messidor_data.csv",
+  "IDRID_ROOT": "datasets/IDRiD/Images/Images",
+  "IDRID_CSV": "datasets/IDRiD/idrid_labels.csv",
+  "OUT_DIR": "outputs"
+}
